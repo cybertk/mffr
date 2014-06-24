@@ -1,0 +1,9 @@
+=======
+Changes
+=======
+
+
+1.0.0 - Jun 24, 2014
+==================
+* Initial release.
+* Extracted from revision 207883 of http://src.chromium.org/svn/trunk/src/tools/git/mffr.py
