@@ -17,6 +17,8 @@ REGEXP uses full Python regexp syntax. REPLACEMENT can use
 back-references.
 """
 
+__version__ = '1.0.0'
+
 import optparse
 import re
 import subprocess
@@ -87,7 +89,8 @@ REGEXP uses full Python regexp syntax. REPLACEMENT can use back-references.
 ]
 As shown above, [GLOBS] can be omitted for a given search-replace list, in which
 case the corresponding search-replace will use the globs specified on the
-command line.''')
+command line.''',
+version='%prog ' + __version__)
   parser.add_option('-d', action='store_true',
                     dest='use_default_glob',
                     help='Perform the change on C++ and Objective-C(++) source '
